@@ -5,11 +5,11 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('map').insert([
-        {latitude: 34.12426, longitude: -118.4917102},
-        {latitude: 34.124101, longitude: -118.492397},
-        {latitude: 34.1239419, longitude: -118.4930839},
-        {latitude: 34.1237829, longitude: -118.4937708},
-        {latitude: 34.127035, longitude: -118.325934}
+        {latitude: 34.072873, longitude: -118.260519},
+        {latitude: 34.056329, longitude:-118.246771},
+        {latitude: 34.048569, longitude: -118.252892},
+        {latitude: 34.058428, longitude: -118.279427},
+        {latitude:37.78825, longitude:-122.4324}
         
       ]);
     });
